@@ -7,7 +7,7 @@ Changes your mouse cursor into a crosshairs that can be used as a productivity o
 ## Crosshair Cursor - Creates a Crosshair window that follows your cursor.
 By Brian Markley PENG RSE 
 
-## #Description
+### Description
 Changes your mouse cursor into a crosshairs that can be used as a productivity or 
 assistive tool.
 
