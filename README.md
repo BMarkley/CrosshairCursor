@@ -44,14 +44,16 @@ This will create an executable "CrosshairCursor" program. If you want to put it 
 (as superuser).
 
 Compilation is now complete. All that's left to do is run
-
 For a foreground terminal application:
+<code>
 % CrosshairCursor
-
+</code>
 For a background application:
+<code>
 % CrosshairCursor &
+</code>
 
-senjoy :-)
+enjoy :-)
 
 <Release>
 Currently in the process of being released as an applet on Linux Mint cinnamon.
