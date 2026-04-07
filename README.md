@@ -12,7 +12,8 @@ Changes your mouse cursor into a crosshairs that can be used as a productivity o
 assistive tool.
 
 <Compilation note from oneko developers>
-"It seems that it won't work if you use gcc as the compiler. (I've confirmed this myself.) For this reason, I've forced the compiler to compile with cc in the new Imakefile."
+"It seems that it won't work if you use gcc as the compiler. (I've confirmed this myself.) For this reason, I've
+ forced the compiler to compile with cc in the new Imakefile."
 
 <Dependencies>
 
@@ -28,16 +29,18 @@ psmisc
 
 1. First, unshar this article to extract the source code.
 
-2. Create a Makefile. Change to the oneko directory and run % xmkmf. If you don't have this command, you can also run % imake -DUseInstalled -I/usr/lib/X11/config.
+2. Create a Makefile. Change to the oneko directory and run % xmkmf. If you don't have this command, you can also
+ run % imake -DUseInstalled -I/usr/lib/X11/config.
 
-3. Run make.
-
+3. Run make:
+<code>
 % make
-
-This will create an executable "CrosshairCursor" program. If you want to put it in /usr/bin/X11 and share it with everyone, run
-
+</code>
+This will create an executable "CrosshairCursor" program. If you want to put it in /usr/bin/X11 and share it with
+ everyone, run:
+<code>
 # make install
-
+</code>
 (as superuser).
 
 Compilation is now complete. All that's left to do is run
