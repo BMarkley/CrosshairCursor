@@ -24,8 +24,6 @@ libx11-6
 libxext6
 psmisc
 
-It can be compiled even without the shape extension library. If you're using X other than R4 and not SONY NEWS, delete the line DEFINES = -DSHAPE from the Imakefile. (I haven't tested whether it works with NEWS. Someone please check.)
-
 <How to Compile>
 
 1. First, unshar this article to extract the source code.
