@@ -620,14 +620,14 @@ printf("Debug: GetArguments\n");
       }
     }
     else if (strcmp(argv[ArgCounter], "-horizontal") == 0) {
-        BitmapHeight = 1;
+        BitmapHeight = 3;
         if(1 == BitmapHeight && 1 == BitmapWidth){
           fprintf(stderr, "%s: -can't run 'only vertical' and 'only horizontal' at same time.\n",ProgramName);
           exit(1);
       }
     }
     else if (strcmp(argv[ArgCounter], "-vertical") == 0) {
-        BitmapWidth = 1;
+        BitmapWidth = 3;
         if(1 == BitmapHeight && 1 == BitmapWidth){
           fprintf(stderr, "%s: -can't run 'only vertical' and 'only horizontal' at same time.\n",ProgramName);
           exit(1);
