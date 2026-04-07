@@ -83,9 +83,7 @@ only, Fixed locations, colours, etc.
 CrosshairCursor is written by Brian Markley PENG RSE after a code review of oneko 
 and the oneko-toggle applet for cinamon desktop.
 
-Original oneko program written by
-Masayuki Koba
-Modified by
+Original oneko program written by Masayuki Koba, and Modified by
 Tatsuya Kato (kato@ntts.co.jp)
 
 oneko-toggle applet is written by kusch31
