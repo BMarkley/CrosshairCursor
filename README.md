@@ -12,7 +12,7 @@ Changes your mouse cursor into a crosshairs that can be used as a productivity o
 assistive tool.
 
 ### Compilation note from oneko developers
-"It seems that it won't work if you use gcc as the compiler. (I've confirmed this myself.) For this reason, I've
+>"It seems that it won't work if you use gcc as the compiler. (I've confirmed this myself.) For this reason, I've
  forced the compiler to compile with cc in the new Imakefile."
 
 ### Dependencies
