@@ -17,13 +17,13 @@ assistive tool.
 
 ### Dependencies
 
-X Window System
-X11 shape extension
-based on the oneko cat program, so oneko package dependecies are likely all needed:
-libc6(>=2.4)
-libx11-6
-libxext6
-psmisc
+X Window System  
+X11 shape extension  
+based on the oneko cat program, so oneko package dependecies are likely all needed:  
+libc6(>=2.4)  
+libx11-6  
+libxext6  
+psmisc  
 
 ### How to Compile
 
