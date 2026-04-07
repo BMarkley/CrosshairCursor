@@ -3,19 +3,19 @@ Changes your mouse cursor into a crosshairs that can be used as a productivity o
 
 
 ![materials](/Images/Screenshot.png)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- Crosshair Cursor - Creates a Crosshair window that follows your cursor.
+
+## Crosshair Cursor - Creates a Crosshair window that follows your cursor.
 By Brian Markley PENG RSE 
 
-<Description>
+## #Description
 Changes your mouse cursor into a crosshairs that can be used as a productivity or 
 assistive tool.
 
-<Compilation note from oneko developers>
+### Compilation note from oneko developers
 "It seems that it won't work if you use gcc as the compiler. (I've confirmed this myself.) For this reason, I've
  forced the compiler to compile with cc in the new Imakefile."
 
-<Dependencies>
+### Dependencies
 
 X Window System
 X11 shape extension
@@ -25,7 +25,7 @@ libx11-6
 libxext6
 psmisc
 
-<How to Compile>
+### How to Compile
 
 1. First, unshar this article to extract the source code.
 
@@ -33,29 +33,21 @@ psmisc
  run % imake -DUseInstalled -I/usr/lib/X11/config.
 
 3. Run make:
-<code>
-% make
-</code>
+<code>$ make</code>
 This will create an executable "CrosshairCursor" program. If you want to put it in /usr/bin/X11 and share it with
  everyone, run:
-<code>
-# make install
-</code>
+<code># make install</code>
 (as superuser).
 
 Compilation is now complete. All that's left to do is run
 For a foreground terminal application:
-<code>
-% CrosshairCursor
-</code>
+<code>$ CrosshairCursor</code>
 For a background application:
-<code>
-% CrosshairCursor &
-</code>
+<code>$ CrosshairCursor &</code>
 
 enjoy :-)
 
-<Release>
+### Release
 Currently in the process of being released as an applet on Linux Mint cinnamon.
 Included is a compiled copy of the code which runs on my system.
 I think it should be portable to other 64bit systems, but I do not know.
@@ -64,12 +56,12 @@ The applet can be manually installed by putting the CrosshairCursor@BMarkley fol
 in ~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor, and 
 then activating the applet from the cinamon applet menu.
 
-<Usage>
+### Usage
 When run without options a gray and black fullscreen Crosshair will follow the mouse
 
 Usage can change with options, such as crosshair size, vertical only, horizontal
 only, Fixed locations, colours, etc. 
-
+<code>
 "Options are:",
 "-h or -help                       : display this helpful message.",
 "-fg <color>                       : foreground color.",
@@ -86,8 +78,8 @@ only, Fixed locations, colours, etc.
 "-display                          : name of display to draw window to.",
 "-name                             : name of process.",
 "-sync                             : puts you in synchronous mode.",
-
-<Special Thanks>
+</code>
+### Special Thanks
 CrosshairCursor is written by Brian Markley PENG RSE after a code review of oneko 
 and the oneko-toggle applet for cinamon desktop.
 
@@ -98,9 +90,9 @@ Tatsuya Kato (kato@ntts.co.jp)
 
 oneko-toggle applet is written by kusch31
 
-<Testing and bug reports>
+### Testing and bug reports
 I have only tested this on one computer. My home system running 
 Linux Mint 22.3 
 Cinamon 6.6.7
 
-Please submit all issues to the Github page CrosshairCursor@Bmarkley.
+Please submit all issues to the Github page /Bmarkley/CrosshairCursor.
