@@ -17,7 +17,7 @@ assistive tool.
 <Dependencies>
 
 X Window System
-C11 shape extension
+X11 shape extension
 based on the oneko cat program, so oneko package dependecies are likely all needed:
 libc6(>=2.4)
 libx11-6
