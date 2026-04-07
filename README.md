@@ -53,7 +53,7 @@ Included is a compiled copy of the code which runs on my system.
 I think it should be portable to other 64bit systems, but I do not know.
 
 The applet can be manually installed by putting the CrosshairCursor@BMarkley folder 
-in <code>~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor<code>, and 
+in <code>~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>, and 
 then activating the applet from the cinamon applet menu.
 
 ### Usage
