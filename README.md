@@ -55,7 +55,7 @@ in <code>~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCurso
 then activating the applet from the cinamon applet menu.
 
 ### Usage
-When run without options a gray and black fullscreen Crosshair will follow the mouse
+When run without options a light-grey and black fullscreen Crosshair will follow the mouse
 
 Usage can change with options, such as crosshair size, vertical only, horizontal
 only, Fixed locations, colours, etc. 
