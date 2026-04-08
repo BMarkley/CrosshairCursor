@@ -34,9 +34,9 @@ This will create an executable "CrosshairCursor" program. If you want to put it 
 (as superuser).
 
 Compilation is now complete. All that's left to do is run the program.  
-For a foreground terminal application:
-<code>$ CrosshairCursor</code>
-For a background application:
+For a foreground terminal application:  
+<code>$ CrosshairCursor</code>  
+For a background application:  
 <code>$ CrosshairCursor &</code>
 
 enjoy :-)
