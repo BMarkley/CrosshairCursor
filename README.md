@@ -1,4 +1,4 @@
-# ![materials](/Applet/CrosshairCursor@BMarkley/icon.png) CrosshairCursor ![materials](/Applet/CrosshairCursor@BMarkley/icons/CrosshairCursorStopped.png)
+# ![materials](/Applet/CrosshairCursor@BMarkley/files/CrosshairCursor@BMarkley/icon.png) CrosshairCursor ![materials](/Applet/CrosshairCursor@BMarkley/files/CrosshairCursor@BMarkley/icons/CrosshairCursorStopped.png)
 Changes your mouse cursor into a crosshairs that can be used as a productivity or assistive tool. 
 
 
