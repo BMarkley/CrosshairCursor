@@ -1,8 +1,8 @@
-# ![materials](/files/CrosshairCursor@BMarkley/icon.png) CrosshairCursor Cinnamon Applet ![materials](/files/CrosshairCursor@BMarkley/icons/CrosshairCursorStopped.png)
+# ![materials](files/CrosshairCursor@BMarkley/icon.png) CrosshairCursor Cinnamon Applet ![materials](files/CrosshairCursor@BMarkley/icons/CrosshairCursorStopped.png)
 Changes your mouse cursor into a crosshairs that can be used as a productivity or assistive tool. 
 
 
-![materials](/screenshot.png)
+![materials](screenshot.png)
 
 ## Crosshair Cursor - Creates a Crosshair window that follows your cursor.
 By Brian Markley PENG RSE 
