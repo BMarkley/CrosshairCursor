@@ -10,7 +10,7 @@ By Brian Markley PENG RSE
 ### Description
 Changes your mouse cursor into a crosshairs that can be used as a productivity or  
 assistive tool.  
-The <code>CCScript.sh<code/> in the applet directory  
+The <code>CCScript.sh</code> in the applet directory  
 <code>~/.local/share/cinnamon/CrosshairCursor@BMarkley/</code> 
 can be modified to add options to the program like changing the colour or style of 
 the crosshairs
@@ -38,13 +38,13 @@ source code is available at the /BMarkley/CrosshairCursor github page
 please add it to the <code>/applet/CrosshairCursor@BMarkley/files/CrosshairCursor@BMarkley/CrosshairCursor</code> folder
 The applet can be installed by running the "test-spice" script found in the applet folder.  
 This will install the applet in  
-<code>~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
+<code> ~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
 You can then activate the applet in the cinamon applet menu, by write clicking a panel and  
 selecting "applets".
 Custom options can be run with the applet by modifying the script <code>CCScript.sh</code>  
 found in the applet folder. You may need to make this script and the program executable,  
 though the applet.js file should do that for you.
-<code>~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
+<code> ~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
 
 ### Usage
 When run without options a light-grey and black fullscreen Crosshair will follow the mouse
