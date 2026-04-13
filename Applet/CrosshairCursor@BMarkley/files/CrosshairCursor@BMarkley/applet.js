@@ -47,7 +47,6 @@ class CrosshairCursorToggle extends Applet.IconApplet {
 
     on_applet_clicked(event) {
         //if (DEBUG) global.log(_("CrosshairCursorToggle is clicked"));
-//        GLib.spawn_command_line_async(CROSSHAIR_SCRIPT);
         Util.spawn(CROSSHAIR_SCRIPT);
         // Delay update to allow process start/stop
         timeout_add( 250, () => {
@@ -63,8 +62,7 @@ class CrosshairCursorToggle extends Applet.IconApplet {
     checkIfProgramRunning(programName) {
         // Runs pgrep synchronously, returns true/false
         try {
-//            let [ok, stdout, stderr, status] = GLib.spawn_command_line_sync(`pgrep -x ${programName}`);
-            let [ok, stdout, stderr, status] = GLib.spawn("pgrep", "-x ${programName}");
+            let [ok, stdout, stderr, status] = Util.spawn("pgrep", "-x ${programName}");
             if (ok && status === 0 && to_string(stdout).trim().length > 0) {
                 return true;
             }
