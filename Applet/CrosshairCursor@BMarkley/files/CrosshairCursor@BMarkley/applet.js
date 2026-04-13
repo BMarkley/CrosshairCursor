@@ -4,7 +4,8 @@ const St = imports.gi.St;
 const Util = imports.misc.util;
 const HOME = GLib.get_home_dir();
 const UUID = "CrosshairCursor@BMarkley";
-const APPLET_DIR = HOME + "/.local/share/cinnamon/applets/" + UUID;
+const USER_DATA_DIR = GLib.get_user_data_dir()
+const APPLET_DIR = USER_DATA_DIR + "/cinnamon/applets/" + UUID;
 const CROSSHAIR_SCRIPT = APPLET_DIR + "/CCScript.sh";
 const CROSSHAIR_EXEC = APPLET_DIR + "/CrosshairCursor/CrosshairCursor";
 const DEBUG = false;
@@ -21,7 +22,7 @@ const {
 const { to_string } = require("./lib/to-string");
 
 const Gettext = imports.gettext;
-Gettext.bindtextdomain(UUID, HOME + "/.local/share/locale");
+Gettext.bindtextdomain(UUID, USER_DATA_DIR + "/locale");
 
 function _(str) {
    let customTranslation = Gettext.dgettext(UUID, str);
