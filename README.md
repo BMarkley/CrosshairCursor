@@ -1,20 +1,20 @@
 # ![materials](/Applet/CrosshairCursor@BMarkley/files/CrosshairCursor@BMarkley/icon.png) CrosshairCursor ![materials](/Applet/CrosshairCursor@BMarkley/files/CrosshairCursor@BMarkley/icons/CrosshairCursorStopped.png)
-Changes твої mouse cursor в a crosshairs що can be використовується as a productivity or assistive tool. 
+Changes your mouse cursor into a crosshairs that can be used as a productivity or assistive tool. 
 
 
-![materials](/Зображення/Screenshot.png)
+![materials](/Images/Screenshot.png)
 
-## Crosshair Cursor - Creates a Crosshair window що follows твої cursor.
+## Crosshair Cursor - Creates a Crosshair window that follows your cursor.
 By Brian Markley PENG RSE 
 
 ### Description
-Changes твої mouse cursor в a crosshairs що can be використовується as a productivity or 
+Changes your mouse cursor into a crosshairs that can be used as a productivity or 
 assistive tool.
 
 ### Dependencies  
 X Window System  
 X11 shape extension  
-based на the oneko cat program, so oneko package dependecies are likely all needed:  
+based on the oneko cat program, so oneko package dependecies are likely all needed:  
 libc6(>=2.4)  
 libx11-6  
 libxext6  
@@ -46,10 +46,9 @@ enjoy :-)
  forced the compiler to compile with cc in the new Imakefile."
 
 ### Release
+Currently in the process of being released as an applet on Linux Mint cinnamon.
 Included is a compiled copy of the code which runs on my system.
 I think it should be portable to other 64bit systems, but I do not know.
-
-I would like to get this released somewhere as an accessibility tool, into a repository or something. If anyone is interested in helping me with this, please reach out to me. 
 
 ### Cinamon Applet
 The precompiled release is already included in the applet. If you want to use a custom compiled version  
@@ -57,7 +56,7 @@ please add it to the <code>/applet/CrosshairCursor@BMarkley/files/CrosshairCurso
 The applet can be installed by running the "test-spice" script found in the applet folder.  
 This will install the applet in  
 <code> ~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
-You can then activate the applet in the cinamon applet menu, by right clicking a panel and  
+You can then activate the applet in the cinamon applet menu, by write clicking a panel and  
 selecting "applets".
 Custom options can be run with the applet by modifying the script <code>CCScript.sh</code>  
 found in the applet folder. You may need to make this script and the program executable,  
