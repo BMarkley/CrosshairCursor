@@ -58,7 +58,7 @@ please add it to the <code>/applet/CrosshairCursor@BMarkley/files/CrosshairCurso
 The applet can be installed by running the "test-spice" script found in the applet folder.  
 This will install the applet in  
 <code> ~/.local/share/cinnamon/applets/CrosshairCursor@BMarkley/CrosshairCursor</code>.   
-You can then activate the applet in the cinamon applet menu, by write clicking a panel and  
+You can then activate the applet in the cinamon applet menu, by right clicking a panel and  
 selecting "applets".
 Custom options can be run with the applet by modifying the script <code>CCScript.sh</code>  
 found in the applet folder. You may need to make this script and the program executable,  
