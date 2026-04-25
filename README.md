@@ -46,7 +46,9 @@ enjoy :-)
  forced the compiler to compile with cc in the new Imakefile."
 
 ### Release
-Currently in the process of being released as an applet on Linux Mint cinnamon.
+I would like to release this somewhere more accessible for people with visual impairments, like in the accessibility software 
+of a main distribution. If anyone would like to help me with that, please reach out to me. Thanks.
+
 Included is a compiled copy of the code which runs on my system.
 I think it should be portable to other 64bit systems, but I do not know.
 
