@@ -23,7 +23,7 @@ psmisc
 ### How to Compile  
 1. Extract the source code.
 
-2. Create a Makefile. Change to the oneko directory and run <code>$ xmkmf</code>. If you don't have this command, you can also
+2. Create a Makefile. Change to the Source directory and run <code>$ xmkmf</code>. If you don't have this command, you can also
  run <code>$ imake -DUseInstalled -I/usr/lib/X11/config.</code>
 
 3. Run make:
